@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon
+  id="skin.nanolight"
+  version="0.0.1"
+  name="Nano Light"
+  provider-name="Christian Heinisch">
+  <requires>
+    <import addon="xbmc.gui" version="5.2.0"/>
+  </requires>
+  <extension
+    point="xbmc.gui.skin"
+    defaultthemename="textures.xbt"
+    debugging="false"
+    effectslowdown="0.75">
+    <res width="1280" height="720" aspect="16:9" default="true" folder="720p" />
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="de">Nano Light Skin von Christian</summary>
+    <summary lang="en">Nano Light skin by Christian</summary>
+    <summary lang="en_US">Nano Light skin by Christian</summary>
+    <description lang="de">Mein erster Skin halt</description>
+    <description lang="en">My First Skin</description>
+    <description lang="en_US">My First Skin</description>
+    <disclaimer lang="de">Mein erster Skin</disclaimer>
+    <disclaimer lang="en">My First Skin</disclaimer>
+    <disclaimer lang="en_US">My First Skin</disclaimer>
+    <platform>all</platform>
+  </extension>
+</addon>
